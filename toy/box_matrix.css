@@ -1,50 +1,49 @@
-#container {
-  width: 320px;
-  background: silver;
+#container { background: silver;
+  width: 960px;
   margin: 0px auto;
   overflow: hidden;
   height: auto;
 }
 /* -------------------------------------- */
-#row-1{
-  background: green;
+#row-1{ background: green;
   min-height: 150px;
   margin: 20px;
 }
 /* -------------------------------------- */
-#row-2{
-  background: white;
-  min-height: 150px;
-  margin: 20px;
+#row-2{ background: pink;
+  min-height: 440px;
+  margin: 0px;
 }
 /* -------------------------------------- */
-.row-2_cols{
-  width: 100px;
-  min-height: 115px;
-  margin: 20px;
-  float: left;
-}
+.row-2_cols{ float: left; }
 /* -------------------------------------- */
-#row-2_col-1 { background: blue; }
-#row-2_col-2 { background: red; }
+#row-2_col-1 { background: blue;
+  min-height: 300px;
+  width: 180px;
+  margin: 20px;
+}
+#row-2_col-2 { background: red;
+  min-height: 400px;
+  width: 700px;
+  margin: 20px;
+}
 /* -------------------------------------- */
 #row-2_col-2_row-1, #row-2_col-2_row-2 {
   min-height: 50px;
   margin: 5px;
 }
 /* -------------------------------------- */
-#row-2_col-2_row-1 {background: red;}
-#row-2_col-2_row-2 {background: purple;}
-/* -------------------------------------- */
-#row-2_col--2_row-1_cols{
-  background: yellow;
-  min-height: 40px;
-  width: 35px;
-  margin: 5px;
-  float: right;
+#row-2_col-2_row-1 {background: red; }
+#row-2_col-2_row-2 {background: purple;
+  width: 650px; /* (3 * width of yellow + 2*margin of yellow */
+  margin: 10px; /* margin match yellow; */
 }
 /* -------------------------------------- */
-
+#row-2_col--2_row-1_cols{ background: yellow;
+  min-height: 40px;
+  width: 210px;
+  margin: 5px;
+  float: left;
+}
 /* -------------------------------------- */
-
 /* -------------------------------------- */
