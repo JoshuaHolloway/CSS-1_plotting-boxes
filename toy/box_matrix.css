@@ -5,28 +5,29 @@
   overflow: hidden;
   height: auto;
 }
-
-/* #col-1, #col-2 { float: right; } */
-
+/* -------------------------------------- */
 #row-1{
   background: green;
   min-height: 150px;
   margin: 20px;
 }
-
+/* -------------------------------------- */
 #row-2{
   background: white;
   min-height: 150px;
   margin: 20px;
 }
-
-#subcontents{
-  background: blue;
+/* -------------------------------------- */
+.row-2_cols{
   width: 100px;
   min-height: 115px;
   margin: 20px;
-  float: right;
+  float: left;
 }
+/* -------------------------------------- */
+#row-2_col-1 { background: blue; }
+#row-2_col-2 { background: red; }
+/* -------------------------------------- */
 
 
-#row-2_col-2 { float: right; }
+/* -------------------------------------- */
