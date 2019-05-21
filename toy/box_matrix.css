@@ -1,0 +1,32 @@
+#container {
+  width: 320px;
+  background: silver;
+  margin: 0px auto;
+  overflow: hidden;
+  height: auto;
+}
+
+/* #col-1, #col-2 { float: right; } */
+
+#row-1{
+  background: green;
+  min-height: 150px;
+  margin: 20px;
+}
+
+#row-2{
+  background: white;
+  min-height: 150px;
+  margin: 20px;
+}
+
+#subcontents{
+  background: blue;
+  width: 100px;
+  min-height: 115px;
+  margin: 20px;
+  float: right;
+}
+
+
+#row-2_col-2 { float: right; }
