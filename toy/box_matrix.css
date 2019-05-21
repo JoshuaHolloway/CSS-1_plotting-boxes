@@ -29,8 +29,22 @@
 #row-2_col-2 { background: red; }
 /* -------------------------------------- */
 #row-2_col-2_row-1, #row-2_col-2_row-2 {
-  background: yellow;
   min-height: 50px;
   margin: 5px;
 }
+/* -------------------------------------- */
+#row-2_col-2_row-1 {background: red;}
+#row-2_col-2_row-2 {background: purple;}
+/* -------------------------------------- */
+#row-2_col--2_row-1_cols{
+  background: yellow;
+  min-height: 40px;
+  width: 35px;
+  margin: 5px;
+  float: right;
+}
+/* -------------------------------------- */
+
+/* -------------------------------------- */
+
 /* -------------------------------------- */
