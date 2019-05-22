@@ -10,7 +10,7 @@
   margin: 20px;
 }
 /* -------------------------------------- */
-#row-2{ background: pink;
+#row-2{ background: silver;
   min-height: 440px;
   margin: 0px;
 }
@@ -26,23 +26,22 @@
   min-height: 400px;
   width: 700px;
   margin: 20px;
-}
-/* -------------------------------------- */
-#row-2_col-2_row-1, #row-2_col-2_row-2 {
-  min-height: 50px;
+}/* -------------------------------------- */
+#row-2_col-2_row-1 {background: red;
+  min-height: 240px;
   margin: 5px;
 }
-/* -------------------------------------- */
-#row-2_col-2_row-1 {background: red; }
 #row-2_col-2_row-2 {background: purple;
-  width: 650px; /* (3 * width of yellow + 2*margin of yellow */
+  height: 100px;
+  width: 656px; /* (3 * width of yellow + 2*margin of yellow */
+
   margin: 10px; /* margin match yellow; */
 }
 /* -------------------------------------- */
 #row-2_col--2_row-1_cols{ background: yellow;
-  min-height: 40px;
+  height: 210px;
   width: 210px;
-  margin: 5px;
+  margin: 6px;
   float: left;
 }
 /* -------------------------------------- */
